@@ -18,8 +18,8 @@ RGB炫光3D打印悬浮时钟
 - 该项目没有采用电池供电方案，有需求的小伙伴可以自行修改设计，因为电机功耗较大，18650锂电池大约维持50~80h
 ***
 项目效果：  
-<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic1.jpg" height="200">
-<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic2.jpg" height="200">
+<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic1.jpg" height="400">
+<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic2.jpg" height="400">
 ***
 ## 项目文件说明
 
