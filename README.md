@@ -21,6 +21,8 @@ RGB炫光3D打印悬浮时钟
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic1.jpg" height="400">
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic2.jpg" height="400">
 ***
+### 以下内容还未更新，为上一版，请耐心等待跟新！！！
+***
 ## 项目文件说明
 
 - 3D-model  
