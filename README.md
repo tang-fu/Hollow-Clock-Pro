@@ -21,7 +21,8 @@ RGB炫光3D打印悬浮时钟
 
 该项目没有采用电池供电方案，有需求的小伙伴可以自行修改设计，因为电机功耗较大，18650锂电池大约维持50~80h
 ***
-项目效果：  
+### 项目效果
+
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic1.jpg" height="400">
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic2.jpg" height="400">
 
@@ -31,34 +32,16 @@ RGB炫光3D打印悬浮时钟
 [代码说明，点击跳转](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/Codes/Hollow-Clock-Pro "代码说明")
 
 - 3Dmodels  
-3d模型文件  
+[3d模型文件，点击跳转](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/3Dmodels)  
 其中包含两个版本
 
-***
-### 以下内容还未更新，为上一版，请耐心等待跟新！！！
-***
+- PCB  
+包含原理图和PCB图，导入立创EDA
 
-
-> 预览链接[点击传送]()暂时关闭
 - Docs  
 相关的耗材清单，参考文件，图片等
-
-| 耗材名称          | 规格/型号    | 数量          | 其他 |
-| ----------------- | ------------ | ------------ | ---- |
-| 铷磁铁            | 8x3mm        | 3            |      |
-| 步进电机          | 28BYJ-48     | 1            |      |
-| 电机驱动板        | ULN2003      | 1            | 绿板     |
-| 自攻螺丝          | M2(6mm,10mm) | 6mm:7,10mm:1 | 4mm可替代6mm   |
-| esp8266           | cp2102驱动   | 1            | 注意尺寸大小，有的板子过大，无法放入底座    |
-| 线材              | \            | \            |      |
-
-- Codes  
-该目录下为arduino程序，需要使用`Arduino IDE`运行  
-——time_correction为误差校准程序  
-——wifi_main_program为主程序，需要安装三个库文件  
-`#include<ESP8266WiFi.h>`  
-`#include<NTPClient.h>`  
-`#include<WiFiUdp.h>`  
+***
+### 以下内容还未更新，为上一版，请耐心等待跟新！！！
 ***
 ## 使用说明
 1. 接线说明，程序中`int port[4] = { 15, 13, 12, 14 };`对应8266引脚如下图，分别对应ULN2003驱动板`IN1,IN2,IN3,IN4`，驱动板的电源与接地可以接到`Vin,GND`  
