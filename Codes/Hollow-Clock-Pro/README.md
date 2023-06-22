@@ -13,7 +13,7 @@
 具体用于烧录到8266的flash中，以便快速响应  
 data目录具体烧录方法参考链接[点击传送](https://www.taichi-maker.com/homepage/esp8266-nodemcu-iot/iot-c/spiffs/upload-files/)
 
-### 具体文件说明
+### 使用说明
 - 关于新增或修改灯效  
 1.请在led.cpp文件中led_control()函数中新增选项  
 2.并在头文件led.h自定义宏  
@@ -21,4 +21,4 @@ data目录具体烧录方法参考链接[点击传送](https://www.taichi-maker.
 4.修改data中的网页文件
 
 ### 更新说明
-
+暂无更新
