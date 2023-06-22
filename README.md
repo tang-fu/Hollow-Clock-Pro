@@ -39,7 +39,7 @@ RGB炫光3D打印悬浮时钟
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic3.png" height="200">
 
 - PCB  
-包含原理图和PCB图，导入立创EDA
+包含原理图和PCB图，导入立创EDA，可以自动生成BOM，修改等
 
 - Docs  
 相关的耗材清单，参考文件，图片等
