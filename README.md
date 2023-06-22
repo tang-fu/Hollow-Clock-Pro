@@ -46,8 +46,8 @@ RGB炫光3D打印悬浮时钟
 ***
 
 ### 使用说明
-[演示视频，校时教程](https://www.bilibili.com/video/BV1DL41167Pf/?spm_id_from=333.999.list.card_archive.click&vd_source=2d5350a9e894031d65f0450846227793)  
-如果你已经准备好了整套设备，并且已经组装完成，请参考[使用说明书，点击跳转](https://docs.qq.com/pdf/DS01uWlNuZ0xRZk10)
+- [演示视频，校时教程](https://www.bilibili.com/video/BV1DL41167Pf/?spm_id_from=333.999.list.card_archive.click&vd_source=2d5350a9e894031d65f0450846227793)  
+- 如果你已经准备好了整套设备，并且已经组装完成，请参考[使用说明书，点击跳转](https://docs.qq.com/pdf/DS01uWlNuZ0xRZk10)
 ***
 
 ### 鸣谢
