@@ -8,6 +8,7 @@ RGB炫光3D打印悬浮时钟
 ***
 ### 简介
 
+本项目基于Arduino IDE开发  
 此次悬浮时钟，在上一个wifi版本的基础上，改进以及新增的功能：
 - 新增rgb灯带，预置了3种灯效
 - 新增了一键自动配网功能
@@ -23,10 +24,15 @@ RGB炫光3D打印悬浮时钟
 项目效果：  
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic1.jpg" height="400">
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic2.jpg" height="400">
+
+### 项目文件说明
+
+- Codes
+[代码说明，点击跳转](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/Codes/Hollow-Clock-Pro "代码说明")
+
 ***
 ### 以下内容还未更新，为上一版，请耐心等待跟新！！！
 ***
-## 项目文件说明
 
 - 3D-model  
 3d stl 模型文件
