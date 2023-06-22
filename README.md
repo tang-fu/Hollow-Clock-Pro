@@ -2,10 +2,12 @@
 RGB炫光3D打印悬浮时钟
 ***
 ### 声明 
+
 该项目原作者为[shiura](https://www.youtube.com/@shiura/about)创作的作品[Hollow-Clock-4](https://www.instructables.com/Hollow-Clock-4/)  
 **本项目基于原作的 CC-BY-NC-SA 4.0 协议 在原项目基础上做出改进，不用做商业用途，仅供学习参考使用**
 ***
 ### 简介
+
 此次悬浮时钟，在上一个wifi版本的基础上，改进以及新增的功能：
 - 新增rgb灯带，预置了3种灯效
 - 新增了一键自动配网功能
@@ -14,8 +16,9 @@ RGB炫光3D打印悬浮时钟
 - 放弃esp8266nodemcu方案，重新绘制PCB，将ULN2003驱动与ESP模组结合在一块PCB上，并预留出灯带接口
 - 除视频中的模型外，新设计了新的模型
 *** 
-注意:
-- 该项目没有采用电池供电方案，有需求的小伙伴可以自行修改设计，因为电机功耗较大，18650锂电池大约维持50~80h
+### 注意
+
+该项目没有采用电池供电方案，有需求的小伙伴可以自行修改设计，因为电机功耗较大，18650锂电池大约维持50~80h
 ***
 项目效果：  
 <img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/Docs/Pic/pic1.jpg" height="400">
