@@ -27,15 +27,18 @@ RGB炫光3D打印悬浮时钟
 
 ### 项目文件说明
 
-- Codes
+- Codes  
 [代码说明，点击跳转](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/Codes/Hollow-Clock-Pro "代码说明")
+
+- 3Dmodels  
+3d模型文件  
+其中包含两个版本
 
 ***
 ### 以下内容还未更新，为上一版，请耐心等待跟新！！！
 ***
 
-- 3D-model  
-3d stl 模型文件
+
 > 预览链接[点击传送]()暂时关闭
 - Docs  
 相关的耗材清单，参考文件，图片等
