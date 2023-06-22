@@ -14,6 +14,7 @@ RGB炫光3D打印悬浮时钟
 - 新增了一键自动配网功能
 - 支持反转校时
 - 新增网页界面控制时钟，可自行内置其他功能
+- 新增OTA远程升级
 - 放弃esp8266nodemcu方案，重新绘制PCB，将ULN2003驱动与ESP模组结合在一块PCB上，并预留出灯带接口
 - 除视频中的模型外，新设计了新的模型
 *** 
@@ -41,27 +42,20 @@ RGB炫光3D打印悬浮时钟
 - Docs  
 相关的耗材清单，参考文件，图片等
 ***
-### 以下内容还未更新，为上一版，请耐心等待跟新！！！
-***
-## 使用说明
-1. 接线说明，程序中`int port[4] = { 15, 13, 12, 14 };`对应8266引脚如下图，分别对应ULN2003驱动板`IN1,IN2,IN3,IN4`，驱动板的电源与接地可以接到`Vin,GND`  
-CP2102驱动下载官网:[https://www.silabs.com/interface/usb-bridges/classic/device.cp2102?tab=softwareandtools](https://www.silabs.com/interface/usb-bridges/classic/device.cp2102?tab=softwareandtools)
 
-> ![图片展示](./Docs/Images/esp8266.png)
+### 使用说明
+[演示视频，校时教程](https://www.bilibili.com/video/BV1DL41167Pf/?spm_id_from=333.999.list.card_archive.click&vd_source=2d5350a9e894031d65f0450846227793)
+如果你已经准备好了整套设备，请参考[使用说明书，点击跳转]()
+***
 
-2. 第一次使用请先烧录该代码`time_corrections`，并将***分针和时针指向12点位置***，该程序会执行12次校准，（这个过程会持续10+分钟）最终回到12点位置，通过最后的误差角度，调整主程序代码中STEPS_PER_ROTATION的数值来进行校准`STEPS_PER_ROTATION = 30720 +- 偏差值`
-3. 安装好库文件后，需要将主程序内的`INPUT_YOUR_WIFI_ID`，`INPUT_YOUR_WIFI_PASSWORD`修改为自己的WiFi名和密码，**将分针和时针指向12点位置**，烧录后重新上电，等待连接wifi，指针会自动走向当前时间
-4. 如下图，分针时针均指向12点钟
-> <img src="./Docs/Images/using_example.jpg" height="534" width="400">
-5. [视频展示，校时教程](https://www.bilibili.com/video/BV1U24y1u7f5/?spm_id_from=333.999.0.0&vd_source=2d5350a9e894031d65f0450846227793)
+### 鸣谢
+感谢嘉立创提供的免费PCB!
 ***
-## 鸣谢
-感谢[@shiura](https://www.youtube.com/@shiura/about)原作者提供的新奇创意  
-感谢[@魔光堂_来一点光](https://space.bilibili.com/65500598)提供wifi自主校时的思路
-***
-## 赞助
+
+### 赞助
 如果你觉得这个项目对你有帮助，或者你有新的想法，欢迎你在此基础上继续创作  
 并且情况允许的话，可以给我点一下star吗，总之非常感谢支持～
 ***
-## License
+
+### License
 This project is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
