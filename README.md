@@ -2,7 +2,7 @@
 
 一款具有RGB，采用3D打印，指针悬浮的时钟
 
-<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/01documents/figures/pic1.jpg" height="400">
+<img src="./01documents/01figures/pic1.jpg" height="400" />
 
 ## 日志
 
@@ -49,19 +49,19 @@
 
 ### 02industial_design
 
-存放3D模型文件等，[点击跳转文档说明](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/01documents/01industrial_design_doc)
+存放3D模型文件等，[点击跳转文档说明](./01documents/02industrial_design_doc)
 
 ### 03electronic_design
 
-项目EDA工程文件，[点击跳转文档说明](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/01documents/02electronic_design_doc)
+项目EDA工程文件，[点击跳转文档说明](./01documents/03electronic_design_doc)
 
 ### 04lower
 
-下位机工程文件，[点击跳转文档说明](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/01documents/03lower_doc)
+下位机工程文件，[点击跳转文档说明](./01documents/04lower_doc)
 
 ### 05upper
 
-上位机工程文件，[点击跳转文档说明](https://gitee.com/codesheep-tang/hollow-clock-pro/tree/master/01documents/04upper_doc)
+上位机工程文件，[点击跳转文档说明](./01documents/05upper_doc)
 
 ## 使用说明
 
@@ -70,7 +70,7 @@
 
 ## 项目展示
 
-<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/01documents/figures/pic2.jpg" height="400">
+<img src="./01documents/01figures/pic2.jpg" height="400" />
 
 ## 赞助
 

@@ -6,4 +6,4 @@
 
 新模型示例如下,未经验证
 
-<img src="https://gitee.com/codesheep-tang/hollow-clock-pro/raw/master/01documents/figures/pic3.png" height="400">
+<img src="../01figures/pic3.png" height="400" />
