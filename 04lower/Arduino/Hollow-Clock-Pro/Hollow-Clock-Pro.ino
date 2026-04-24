@@ -5,6 +5,7 @@
 #include <WiFiManager.h>
 #include <NTPClient.h>
 #include <WiFiUdp.h>
+#include <ESP8266mDNS.h>
 
 extern int LED_State;
 extern int NIGHT_KEY;
@@ -14,11 +15,11 @@ extern int NIGHT_KEY;
 WiFiManager wifiManager;
 String LocalIP = "";
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "ntp1.aliyun.com", 60 * 60 * 8, 30 * 60 * 1000);  //偏移
+NTPClient timeClient(ntpUDP, "ntp2.aliyun.com", 60 * 60 * 8, 30 * 60 * 1000);  //偏移
 int currentHour = 0;
 int currentMinute = 0;
 //int currentSeconds = 0;
-int night_mode_flag1 = 23;//默认夜间模式设置为23点——6点
+int night_mode_flag1 = 23;  //默认夜间模式设置为23点——6点
 int night_mode_flag2 = 6;
 
 int dt = 20;
@@ -71,6 +72,10 @@ void setup() {
   ArduinoOTA.setPassword("88888888");
   ArduinoOTA.begin();
   Server_Init();
+  if (MDNS.begin("hollowclock")) {
+    Serial.println("mDNS responder started");
+    MDNS.addService("http", "tcp", 80);
+  }
 }
 
 void loop() {
